@@ -6,8 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@import MetalKit;
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet MTKView *metalView;
 
 
 @end
