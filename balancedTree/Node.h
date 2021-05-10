@@ -12,6 +12,10 @@
 
 @property Node * prevParent;
 
+@property Node * left;
+
+@property Node * right;
+
 @property BOOL red;
 
 @property int storedValue;

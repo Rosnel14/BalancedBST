@@ -10,7 +10,13 @@
 #import "Node.h"
 @interface RedBlackTree : NSObject
 
--(void) rotateLeft: (Node *) leftInput :(Node *)rightInput;
+@property Node* root;
+
+-(instancetype)init;
+
+-(instancetype)initWithNode:(Node*) input;
+
+-(void) rotateRight: (Node *) leftInput :(Node *)rightInput;
 
 -(void) rotateLeft: (Node *) leftInput :(Node *)rightInput;
 
