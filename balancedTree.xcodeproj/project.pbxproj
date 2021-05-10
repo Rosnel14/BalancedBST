@@ -15,6 +15,7 @@
 		98DC77AF2649657000427387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DC77AD2649657000427387 /* LaunchScreen.storyboard */; };
 		98DC77B22649657000427387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DC77B12649657000427387 /* main.m */; };
 		98DC77BA264968F200427387 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DC77B9264968F200427387 /* Node.m */; };
+		A504E3C026496CCF004908A7 /* RedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = A504E3BF26496CCF004908A7 /* RedBlackTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		98DC77B12649657000427387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98DC77B8264968E900427387 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		98DC77B9264968F200427387 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		A504E3BE26496CCF004908A7 /* RedBlackTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedBlackTree.h; sourceTree = "<group>"; };
+		A504E3BF26496CCF004908A7 /* RedBlackTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedBlackTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				98DC77B12649657000427387 /* main.m */,
 				98DC77B8264968E900427387 /* Node.h */,
 				98DC77B9264968F200427387 /* Node.m */,
+				A504E3BE26496CCF004908A7 /* RedBlackTree.h */,
+				A504E3BF26496CCF004908A7 /* RedBlackTree.m */,
 			);
 			path = balancedTree;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				98DC77BA264968F200427387 /* Node.m in Sources */,
 				98DC77A72649656F00427387 /* ViewController.m in Sources */,
 				98DC77A12649656F00427387 /* AppDelegate.m in Sources */,
+				A504E3C026496CCF004908A7 /* RedBlackTree.m in Sources */,
 				98DC77B22649657000427387 /* main.m in Sources */,
 				98DC77A42649656F00427387 /* SceneDelegate.m in Sources */,
 			);
