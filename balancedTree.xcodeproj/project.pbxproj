@@ -15,6 +15,7 @@
 		98DC77AF2649657000427387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DC77AD2649657000427387 /* LaunchScreen.storyboard */; };
 		98DC77B22649657000427387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DC77B12649657000427387 /* main.m */; };
 		98DC77BA264968F200427387 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DC77B9264968F200427387 /* Node.m */; };
+		98DC77BC26497ADE00427387 /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DC77BB26497ADE00427387 /* AAPLRenderer.m */; };
 		A504E3C026496CCF004908A7 /* RedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = A504E3BF26496CCF004908A7 /* RedBlackTree.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		98DC77B12649657000427387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98DC77B8264968E900427387 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		98DC77B9264968F200427387 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		98DC77BB26497ADE00427387 /* AAPLRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLRenderer.m; sourceTree = "<group>"; };
+		98DC77BD26497AFD00427387 /* AAPLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLRenderer.h; sourceTree = "<group>"; };
 		A504E3BE26496CCF004908A7 /* RedBlackTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedBlackTree.h; sourceTree = "<group>"; };
 		A504E3BF26496CCF004908A7 /* RedBlackTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedBlackTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +76,8 @@
 				98DC77A32649656F00427387 /* SceneDelegate.m */,
 				98DC77A52649656F00427387 /* ViewController.h */,
 				98DC77A62649656F00427387 /* ViewController.m */,
+				98DC77BB26497ADE00427387 /* AAPLRenderer.m */,
+				98DC77BD26497AFD00427387 /* AAPLRenderer.h */,
 				98DC77A82649656F00427387 /* Main.storyboard */,
 				98DC77AB2649657000427387 /* Assets.xcassets */,
 				98DC77AD2649657000427387 /* LaunchScreen.storyboard */,
@@ -161,6 +166,7 @@
 				A504E3C026496CCF004908A7 /* RedBlackTree.m in Sources */,
 				98DC77B22649657000427387 /* main.m in Sources */,
 				98DC77A42649656F00427387 /* SceneDelegate.m in Sources */,
+				98DC77BC26497ADE00427387 /* AAPLRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -290,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
