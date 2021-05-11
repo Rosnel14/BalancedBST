@@ -26,6 +26,7 @@
 
 -(void) rotateRight: (Node *) leftInput :(Node *)rightInput{
     bool left;
+    if(rightInput != self.root){
     Node *tempParent = rightInput.prevParent;
     if(tempParent.left == leftInput){
         left = YES;
@@ -38,6 +39,11 @@
         tempParent.right = rightInput;
     }
     leftInput.prevParent = tempParent;
+    } else {
+        self.root = leftInput;
+        rightInput.prevParent = leftInput;
+        leftInput.prevParent = nil;
+    }
     rightInput.left = leftInput.right;
     leftInput.right.prevParent = rightInput;
     rightInput.prevParent = leftInput;
@@ -46,6 +52,7 @@
 
 -(void) rotateLeft: (Node *) leftInput :(Node *)rightInput{
     bool left;
+    if(leftInput != self.root){
     Node *tempParent = leftInput.prevParent;
     if(tempParent.left == leftInput){
         left = YES;
@@ -58,6 +65,12 @@
         tempParent.right = rightInput;
     }
     rightInput.prevParent = tempParent;
+    } else {
+        self.root = rightInput;
+        rightInput.prevParent = nil;
+        leftInput.prevParent = rightInput;
+        
+    }
     leftInput.right = rightInput.left;
     rightInput.left.prevParent = leftInput;
     leftInput.prevParent = rightInput;
