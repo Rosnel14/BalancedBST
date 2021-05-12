@@ -1,0 +1,35 @@
+//
+//  Node.h
+//  LLRBGame
+//
+//  Created by Rosnel Leyva-Cortés on 5/11/21.
+//
+
+
+#ifndef Node_h
+#define Node_h
+
+@interface Node : NSObject
+
+
+@property Node * left;
+
+
+@property Node * right;
+
+
+@property BOOL red;
+
+
+@property int storedValue;
+
+
+-(instancetype)init;
+
+
+-(instancetype)initWithVal:(int)value;
+
+
+@end
+
+#endif /* Node_h */
